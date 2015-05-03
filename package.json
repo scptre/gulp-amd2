@@ -1,0 +1,30 @@
+{
+  "name": "gulp-amd",
+  "description": "parse AMD-files in stream",
+  "version": "0.0.1",
+  "repository": "tamtakoe/gulp-amd",
+  "author": "tamtakoe <tamtakoe@gmail.com>",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gulpplugin", "amd", "parser"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "through2": "^0.6.3",
+    "amd-parser2": "^0.0.1"
+  },
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "bugs": {
+    "url": "https://github.com/tamtakoe/gulp-amd/issues"
+  },
+  "homepage": "https://github.com/tamtakoe/gulp-amd",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
