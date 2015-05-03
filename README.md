@@ -46,7 +46,7 @@ Type: `String`
 Set module name to each AMD-file
 
 ##### clearName
-Type: `String`
+Type: `Boolean`
 
 Clear module name from each AMD-file
 
