@@ -20,8 +20,7 @@ gulp.src('src/**/*.js')
 
 ## API
 ### options
-
-Add dependencies
+Type: `Object`
 
 #### Parameters
 
