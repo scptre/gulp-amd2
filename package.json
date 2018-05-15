@@ -1,9 +1,8 @@
 {
-  "name": "gulp-amd",
+  "name": "gulp-amd2",
   "description": "parse AMD-files in stream",
   "version": "0.0.2",
-  "repository": "tamtakoe/gulp-amd",
-  "author": "tamtakoe <tamtakoe@gmail.com>",
+  "repository": "scptre/gulp-amd2",
   "files": [
     "index.js"
   ],
@@ -21,9 +20,9 @@
     "node": ">= 0.10"
   },
   "bugs": {
-    "url": "https://github.com/tamtakoe/gulp-amd/issues"
+    "url": "https://github.com/script/gulp-amd2/issues"
   },
-  "homepage": "https://github.com/tamtakoe/gulp-amd",
+  "homepage": "https://github.com/scptre/gulp-amd2",
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
