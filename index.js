@@ -5,12 +5,17 @@ function gulpAmd(params) {
     function transform(file, enc, callback) {
         params = params || {};
         var parsedFile = amd.parse(file);
+        var modName = params.setName;
+        
+        if (params.getModuleName) {
+            modName = params.getModuleName(file);
+        }
 
         params.clear     && parsedFile.clear();
         params.remove    && parsedFile.remove(params.remove);
         params.add       && parsedFile.add(params.add);
         params.clearName && parsedFile.clearName();
-        params.setName   && parsedFile.setName(params.setName);
+        modName          && parsedFile.setName(modName);
 
         parsedFile.save();
 
